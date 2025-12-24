@@ -1,11 +1,6 @@
 # LLMs for Multivariate Time Series Forecasting
 
-This project studies the use of LLMs for multivariate time series classification.
-
-The implementation uses datasets from the UEA benchmark for training and evaluation.
-The model pipeline supports LLaMA-3 models and related variants.
-
-The project is under development. Training and inference workflows are available.
+This project applies LLMs to multivariate time series classification using UEA benchmark datasets for training and evaluation, supporting LLaMA-3 models and related variants. The project is under development, but core training and inference workflows are implemented.
 
 # Usage
 
