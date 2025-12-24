@@ -1,10 +1,15 @@
-# LLMs for Range Prediction of Electric Trucks in Pre-Development Software and Electronics
+# LLMs for Multivariate Time Series Forecasting
 
-Still under active development.
+This project studies the use of LLMs for multivariate time series classification.
 
-## Usage
+The implementation uses datasets from the UEA benchmark for training and evaluation.
+The model pipeline supports LLaMA-3 models and related variants.
 
-Coming soon.
+The project is under development. Training and inference workflows are available.
+
+# Usage
+
+Instructions will be added.
 
 
 

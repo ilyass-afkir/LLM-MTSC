@@ -1,0 +1,59 @@
+name: training
+
+# Paths
+uea_data_dir_path: /mnt/nvme3/ilafkir/datasets/UEA
+
+save_results_deep_range: /path/to/folder
+save_results_inception: /path/to/folder
+save_results_rocket: /path/to/folder
+save_results_resnet: /path/to/folder
+
+
+use_uea: true
+use_benchmarks: false
+
+# Device
+device: "cuda:0"
+
+# Task configs
+sequence_length: 
+label: 
+num_classes:
+num_channels: 
+
+# Data Loader
+num_workers: 24
+batch_size: 32
+
+# Loss function
+label_smoothing: 0.05
+
+# Optimizer 
+learning_rate: 1e-4
+weight_decay: 0.01
+betas: [0.9, 0.999]
+eps: 1e-8
+
+# Learning Rate Scheduler
+warmup_ratio: 0.1
+alpha_f: 0.01
+
+# Training loop
+epochs: 100
+patience: 20
+max_grad_norm: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
